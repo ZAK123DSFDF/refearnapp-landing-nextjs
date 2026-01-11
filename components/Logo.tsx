@@ -2,6 +2,7 @@
 
 import Link from "next/link";
 import Image from "next/image";
+import React from "react";
 
 interface LogoProps {
   className?: string;
@@ -24,7 +25,7 @@ export default function Logo({ className = "", iconSize = 40 }: LogoProps) {
       className={`flex items-center gap-2 cursor-pointer hover:opacity-90 transition-opacity ${className}`}
     >
       <Image
-        src="/refearnapp.svg"
+        src="/landing-assets/refearnapp.svg"
         alt="RefearnApp"
         width={iconSize}
         height={iconSize}
