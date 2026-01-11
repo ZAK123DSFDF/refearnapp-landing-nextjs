@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "deploy-build": "pnpm build && node post-build.js"
   },
   "dependencies": {
     "lucide-react": "^0.562.0",
